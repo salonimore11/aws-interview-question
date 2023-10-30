@@ -1,0 +1,140 @@
+Q1 What is cloud computing ?
+Ans - Cloud computing is a platform where we can store and access the data and programs on remote server that are hosted on internet instead of computer's harddrive or any storage application.
+
+Q2 - Deployment Model in Cloud ?
+Ans - The cloud deployment model is used to identify the specific environment based on ownership, scale, access, purpose and clound's nature.
+
+Q3 - Service Model in Cloud ?
+Ans - There are three types of cloud service model.
+      1 - Saas - Software as a service (It is managed from central location, hosted on remote server, accessible on internet, updates are applied automatically,)
+      2 - Paas - Platform as a service (Accessible to various users via the same development application, integrates database, works on virtualisation technology, auto-scale, supports multiple lang and framework)
+      3 - Iaas - Infrastructure as a service (highly scalable, dynamic and flexible services, GUI and API-based access)
+
+Q4 - AWS Global Infrastructure Count ?
+Ans - The following are the components that make up the AWS infrastructure:
+      Availability Zones - An availability zone can be a several data centers, but if they are close together, they are counted as 1 availability zone.
+      Region -
+      Edge locations
+      Regional Edge Caches
+
+Q5 - Why do we use region ?
+Ans - We use region to achives the greatest possible fault tolerence and stability.
+
+Q6 - What is service ? & What are resources ?
+Ans - 
+
+Q7 - How many resources do we have in IAM ?
+Ans - Identity and Access Management provides variety of features and resources, such as 
+      user, group.roles, policies, MFA,.
+
+Q8 - Identities in IAM ?
+Ans - IAM identities is what you create under your AWS account to provide authentication
+      for people, application and process in your AWS account.
+      Identities represents the user and can be authenticated and then authorized to perform
+      actions in AWS.
+      Each of these can be associated with one or more policies to determine what actions a
+      user, role or member of the group can do with which resources and under what
+      conditions.
+
+Q9 - What is an IAM User ?
+Ans - An IAM user is an entity that we create AWS and it represents the person or service who interact with AWS.
+
+Q10 - What is the IAM Group ?
+Ans - IAM group is a collection of IAM users to provide specific permissions or policies to multiple users at once.
+
+Q11 - What is the IAM Policy ?
+Ans - IAM policies can be defined as authorise permissions for the IAM identity to perform certain operations or taks.
+
+Q12 - What is the IAM Role ?
+Ans - IAM Role is vert similar to IAM user as it is the IAM identity with set of permissions and policies to determine whether one can or cannot perform the task in AWS.
+
+Q13 - Where do we attach Identity Based Policy ?
+Ans - Attach manages and inline based policies to IAM identities such as users, group and roles.
+
+Q14 - Where do we attach Resource Based Policy ?
+Ans - Attach inline policies to resources. 
+      Ex - Amazon S3 bucket policies and IAM role trust policies.
+
+Q15 - Can we be able to create Policy via json code ?
+Ans - Yes, we can crete policies via json code by performing following steps:
+      Sign in to AWS console----->In the navigation pane on the left, choose Policies----->Choose Create policy----->In the Policy editor section, choose the JSON option----->Type or paste a JSON policy document
+      ----->Resolve any security warnings, errors, or general warnings generated during policy validation, and then choose Next----->When you are finished adding permissions to the policy, choose Next
+      ----->On the Review and create page, type a Policy Name and a Description (optional) for the policy that you are creating----->Choose Create policy to save your new policy.
+
+Q16 - If one user has created it by default, which permission has been assigned to that user ?
+Ans - By default, a new IAM user has no permissions to do anything. They are not authorized to perform any AWS operations or to access any AWS resources.
+
+Q17 - What is dominator policy ?
+Ans - Dominator policy is the administrator access which provide full access to AWS services and resources.
+
+Q18 - What is ARN ? What are the fields in ARN ?
+Ans - Amazon Resource Name (ARN) is a string that uniquely identifies an AWS resource such as EC2 instances, S3 buckets, accounts and lambda functions.
+      Fields in ARN - arn:aws:IAM:ap-south-1a:1234567890:user
+      1-arn, 2-provider name, 3-IAM (service name), 4-region, 5-Acc ID, 6-resource type and resource ID.
+
+Q19 - How many types of ARN Partition ?
+Ans - ARN partition is in which the resource is located OR A partition is a group of AWS regions.
+      The following are the supported partitions:
+      aws - AWS Regions
+      aws-cn - China Regions
+      aws-us-gov - AWS GovCloud (US) Regions.
+
+Q20 - What are Tags ?
+Ans - Tags are the key value pair. It is used for identification purposes, automation purposes, cost optimization.
+      Tags are not IAM specific it is throughout the AWS and per resource 50 tags are there.
+
+Q21 - Difference between Block storage & Object Storage ?
+Ans -           Block Storage                                   
+     1 -Block storage divides the data to be stored in evenly sized blocks called data chunks for instance, a file can be split into evenly sized blocks before it is stored.
+     2 -Data blocks stored in block storage would not contain metadata. (Data created, data modified, content type etc.)
+     3 -Block storage is suitable for transitional databases, random read/write loads and structured database storage.
+                object Storage
+     1 -Object storage stores the files as a whole and does not divide them.
+     2 -In object storage an object is: the file/ data itself, its Meta data, object global unique ID
+     3 - Object storage cannot be mounted as a drive. EX - Dropbox, AWS S3
+
+Q22 - Difference between static website & dynamic website ?
+Ans -       Static website
+      1 -Pages will remain same untill someone changes it manually.
+      2 -Static web pages are simple.
+      3 -Information on webpage canot be changed
+      4 -Data bases are not used in static webpages.
+      5 -languages used are HTML, CSS, JAVASCRIPT
+      6 -takes less time for loading
+      7 -Does not contain application proogram.
+            Dynamic Website
+      1 -In dynamic website content of pages are different for different users.
+      2 -webpages are complicated as information in it changes frequently.
+      3 -Database is used.
+      4 -languages used are ASP.NET
+      5 -Takes more time for loading.
+      6 -Contains application program.
+
+Q23 - What are the naming rules ?
+Ans - Following are the NAMING RULES:
+      1)Bucket names are globally unique in all AWS regions.
+      2)Cannot be changes affter they are created.
+      3)Bucket names must be at least 3 and no more than 63 characters long.
+      4)Bucket name must be a series of one or more labels (xyz bucket)
+      5)Bucket names can contain lowercase, numbers and hyphen but cannot use uppercase letters.
+      6)A bucket name cannot be used by another AWS account in the same partition until the bucket is deleted.
+      7)Each label must start and end with a lowercase letter or a number.
+
+Q24 - What is the major resource of S3 Bucket ?
+Ans - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 

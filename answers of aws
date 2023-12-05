@@ -162,7 +162,20 @@ Ans - 1) It is used to upload an object in parts.
 
 Q30 - What are the storage classes in Amazon S3 ? 
 Ans - There are 6 types of storage classses of Amazon S3 -
-      1) S3 standard - 
+      1) S3 standard - S3 standard offers high durability, availability and performance object storage for frequently accessed data.
+      2) S3 intelligent tiering - it is designed to optimize cost by automatically moving the data to the most cost effective access tier.
+      3) S3 IA (infrequent access) - It is data that is accessed less frequently but requires rapid access when needed.
+      4) S3 one zone IA -  It stores data in a single AZ and costs 20% less than S3 standard IA.
+      5) S3 Glacier instant retrived
+      6) S3 Glacier flexible retrival
+      7) S3 Glacier Deep archive
+
+Q31 - What is ACL ?
+Ans - ACL stands for Access Control List. An ACL is a set of rules that defines the permissions associated with objects or buckets. These rules determine which AWS
+      account or groups of users are granted access to object and and what level of access they have.
+
+Q32 - Why do we need ACL ?
+Ans - 
      
     
 

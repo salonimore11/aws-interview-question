@@ -82,6 +82,8 @@ Ans - ARN partition is in which the resource is located OR A partition is a grou
 Q20 - What are Tags ?
 Ans - Tags are the key value pair. It is used for identification purposes, automation purposes, cost optimization.
       Tags are not IAM specific it is throughout the AWS and per resource 50 tags are there.
+                                                            
+                                                        S3 sevice  
 
 Q21 - Difference between Block storage & Object Storage ?
 Ans -           Block Storage                                   
@@ -121,7 +123,36 @@ Ans - Following are the NAMING RULES:
       7)Each label must start and end with a lowercase letter or a number.
 
 Q24 - What is the major resource of S3 Bucket ?
+Ans - A major resource of an Amazon S3 (Simple Storage Service) bucket is the storage space provided to store and retrieve data. It provides unlimited amount of data
+      which can be used for various purposes such as backup & restore, static website hosting, data archiving, log files storage etc.
+
+Q25 - Why do we need to host static websites instead of dynamic websites ?
+Ans - There are several reasons why static websites are preferable tahn dynamic websites, some of them are -
+      1) Simplicity - these are  simpler to create and host.
+      2) Speed - loads faster as there is no server side is included.
+      3) Security - have reduced risk as there is no data encrption and scrpting is included so chances of getiing hack is less as compare to dynamic websites.
+      4) Cost efficiency - hosting is cheaper as less server resources are included.
+      5) scalability - can handle high volumes of traffic without performance intruption.
+
+Q26 - What is versioning & Why do we need versioning ?
+Ans - Bucket versioning means creating multiple variants of an object with same name in the same bucket.
+      Bucket versioning is important and can help to protect and recover object from accidental deletion or overwrite.
+
+Q27 - What are the objects and types of objects that we are uploading into the S3 Bucket ?
+Ans - Object is a type of files which can be uploaded in the bucket. Types of objects which can be uploaded in the bucket are 
+      1) Files - any type of documents, images , videos ect
+      2) Archive - compressed files like zip, tar etc.
+      3) Databases - documented form of datas.
+      4) Codes - program files, scripting files
+      5) Configuration files - config files for systems or applications
+      6) Logs: Application or system logs.
+      7) Backups: Backups of servers, databases, or applications.
+      8) Metadata: Files containing information about other data objects.
+      9) Virtual machine images: Images of virtual machines or instances.
+
+Q28 - Why is MFA Delete important in S3 Bucket object level ?
 Ans - 
+    
 
 
 

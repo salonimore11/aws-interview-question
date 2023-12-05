@@ -151,7 +151,19 @@ Ans - Object is a type of files which can be uploaded in the bucket. Types of ob
       9) Virtual machine images: Images of virtual machines or instances.
 
 Q28 - Why is MFA Delete important in S3 Bucket object level ?
-Ans - 
+Ans - MFA (Multi-Factor Authentication) Delete is important in S3 Bucket object level because it adds an extra layer of security to prevent accidental 
+      or unauthorized deletion of objects in the bucket.
+
+Q29 - What is S3 Multipart upload ?
+Ans - 1) It is used to upload an object in parts.
+      2) Break the object into smaller parts and upload them individually in parallel. 
+      3) It is recommended for the object size of more than 100MB.
+      4) this is done through S3 multipart upload API.
+
+Q30 - What are the storage classes in Amazon S3 ? 
+Ans - There are 6 types of storage classses of Amazon S3 -
+      1) S3 standard - 
+     
     
 
 

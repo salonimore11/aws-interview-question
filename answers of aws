@@ -175,7 +175,60 @@ Ans - ACL stands for Access Control List. An ACL is a set of rules that defines 
       account or groups of users are granted access to object and and what level of access they have.
 
 Q32 - Why do we need ACL ?
+Ans - The main idea of using an ACL is to provide security to your network. Without it, any traffic is either allowed to enter or exit,
+       making it more vulnerable to unwanted and dangerous traffic. 
+
+Q33 - What is a Life cycle policy ? Why do we need to use the life cycle rule ?
+Ans - Lifecycle policy is use to define actions you want amazon S3 to take during an object's lifespam such as transferring objects to another class, archiving them,
+      or deleting them after specific period of time.
+
+Q34 - How can we make our bucket public ?
+Ans - Following are the steps to make bucket public -
+      Navigate to the Amazon S3 console (https://console.aws.amazon.com/s3/)------>Select the bucket you want to make public------>Go to the "Permissions" tab---> 
+      Edit the bucket policy or ACLs to grant the necessary public access.
+
+Q35 - Aws pricing factor of the S3 Service.
+Ans - S3 pricing is based on three factors: Storage Amount: This is the total amount of data (in GB) you’ve stored. Amount of Outbound Data Transferred: 
+      Each time a file is downloaded, you are charged. Number of Requests: Amazon charges you a (small) fee for each request you make.
+
+Q36 - How can we make our object public ?
+Ans - To make an object in Amazon S3 public, you can adjust its Access Control List (ACL) or bucket policy to allow public access. Here's how you can do it:
+      Navigate to the Amazon S3 console-----> Locate and click on the bucket containing the object you want to make public------> Navigate to the folder and find the specific
+      object you want to make public------->Select the object by clicking the checkbox next to its name------>Click on the "Actions" dropdown menu
+      and select "Make public."
+
+Q37 - How can we configure the static website logs in s3 ?
 Ans - 
+
+Q38 - What is CORS ?
+Ans - CORS stands for Cross-Origin Resource Sharing. It is a security feature implemented by web browsers that controls how web pages in one domain can request
+      and interact with resources hosted on another domain. CORS allows servers to specify which origins (domains) are permitted to access their resources. 
+      It is a mechanism that enables controlled sharing of resources across different origins while maintaining security.
+
+Q39 - What is S3 Inventory ?
+Ans - Amazon S3 inventory is one of the tools which provide help to manage our storage. S3 inventory is used to make reports particular format and also it is
+      used to report replication status of our objects for business.
+
+Q40 - What does it mean by Requester pays ?
+Ans - Bucket owners pays for all amazon S3 storage and data transfer costs that are associated with their buckets. After enable requester pays bucket, thr requester
+      pays the cost of the request and the data download from the bucket.
+
+Q41 - What is the secondary word to Transfer acceleration ?Why do we need to use this transfer acceleration ?
+Ans - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
      
     
 
